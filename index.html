@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header id="para_animar_fondo">
+    <h1>Formulario de Datos del Ciudadano</h1>
+    <p class="parrafo1">Bienvenido. Por favor, registrese para ganarse una pasadía en paraguachon</p>
+</header>
+<body>
+    <form action="" method="POST" >
+        <label for="docID" class="num_id">Número de D.I:</label>
+        <input id="docID" type="number" placeholder="ej: 0123456789" required unique> <br> 
+
+        <label for="name" class="nombre">Nombre:</label>
+        <input id="Name" type="text" placeholder="ej: Juan" required> <br>
+
+        <label for="last_name" class="apellido" >Apellido:</label>
+        <input id="Last_name" type="text" placeholder="ej: Perez" required> <br>
+
+        <label for="birth" class="fecha_nac" >Fecha de nacimiento:</label>
+        <input id="Birth" type="date" placeholder="ej: 01/01/01" required> <br> 
+
+        <label for="phone" class="teléfono">Número de celular:</label>
+        <input id="Phone" type="number" placeholder="ej: 0123456789" required unique> <br> 
+
+        <label for="email" class="correo_e" >Correo electrónico:</label>
+        <input id="Email" type="email" placeholder="ej: ejemplo@gmail.com" required unique> <br> 
+          
+        <button type="submit">Enviar</button>
+    </form>
+</body> 
